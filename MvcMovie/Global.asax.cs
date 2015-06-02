@@ -12,6 +12,7 @@ namespace MvcMovie
     {
         protected void Application_Start()
         {
+            //something first
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
